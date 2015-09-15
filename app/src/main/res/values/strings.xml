@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FingerPrint</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_register">Register FingerPrint</string>
+    <string name="action_authenticate">Verify FingerPrint</string>
+    <string name="fingerprint_message">Select action and Swipe finger</string>
+</resources>

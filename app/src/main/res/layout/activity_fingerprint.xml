@@ -1,0 +1,32 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="8dip"
+android:gravity="center_vertical">
+
+<Button
+    android:id="@+id/register_fingerprint_button"
+    style="@style/fingerprintButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="false"
+    android:text="@string/action_register"/>
+
+    <Button
+        android:id="@+id/auth_fingerprint_button"
+        style="@style/fingerprintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/action_authenticate"/>
+
+    <TextView
+        android:id="@+id/fingerprint_status_text"
+        style="@style/fingerprintStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/fingerprint_message"/>
+
+</RelativeLayout>
